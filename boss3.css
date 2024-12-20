@@ -1,0 +1,167 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #96b49c;
+}
+
+header {
+    background-color: #fffec6;
+    color: #5b5847;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #5b5847;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #c7d1af;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer div {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #66ccff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #96b49c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #5b5847;
+}
+
+.running, .natacion, .ciclismo, .fitness{
+    display: flex;
+    width: 75%;
+    height: 30rem;
+    margin: auto;
+}
+
+.running img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(70%);
+    transition: .9s ease;
+}
+
+.running img:hover{
+    cursor: zoom-in;
+    width: 75%;
+    opacity: 1;
+    filter: brightness(100%);
+}
+
+.natacion img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(70%);
+    transition: .9s ease;
+}
+
+.natacion img:hover{
+    cursor: zoom-in;
+    width: 75%;
+    opacity: 1;
+    filter: brightness(100%);
+}
+
+.ciclismo img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(70%);
+    transition: .9s ease;
+}
+
+.ciclismo img:hover{
+    cursor: zoom-in;
+    width: 75%;
+    opacity: 1;
+    filter: brightness(100%);
+}
+
+.fitness img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(70%);
+    transition: .9s ease;
+}
+
+.fitness img:hover{
+    cursor: zoom-in;
+    width: 75%;
+    opacity: 1;
+    filter: brightness(100%);
+}

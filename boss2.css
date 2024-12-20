@@ -1,0 +1,168 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #cc5d4c;
+}
+
+header {
+    background-color: #5b5847;
+    color: #fffec6;
+    padding: 20px;
+    text-align: center;
+}
+.right-image {
+    align-self: flex-start; /* Alinea la imagen en la parte superior */
+    margin-left: auto; /* Empuja la imagen hacia la derecha */
+    max-width: 100px; /* Ajusta este valor según sea necesario */
+    height: auto;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #fffec6;
+    overflow: hidden;
+    margin: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: #5b5847;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #96b49c;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer div {
+    margin: 10px 0;
+}
+
+footer a {
+    color: #66ccff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #5b5847;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #542c70;
+}
+
+.futbol, .baloncesto, .voleibol, .beisbol{
+    display: flex;
+    width: 600;
+    height: 310px;
+}
+
+.futbol img{
+    width: 300px;
+    height: 300px;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+}
+
+.futbol img:hover{
+    cursor: progress;
+    width: 150px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.baloncesto img{
+    width: 300px;
+    height: 300px;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+}
+
+.baloncesto img:hover{
+    cursor: progress;
+    width: 150px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.voleibol img{
+    width: 300px;
+    height: 300px;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+}
+
+.voleibol img:hover{
+    cursor: progress;
+    width: 150px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.beisbol img{
+    width: 300px;
+    height: 300px;
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+}
+
+.beisbol img:hover{
+    cursor: progress;
+    width: 150px;
+    opacity: 1;
+    filter: contrast(120%);
+}
